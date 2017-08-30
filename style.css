@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  margin: 1em;
+}
+.header h1 {
+  font-size: 5vh;
+}
+
+.header h3 {
+  font-size: 3vh;
+}
+
+.spinner {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vw;
+  max-height: 70vh;
+  max-width: 70vh;
+  position: relative;
+}
+
+.result-container {
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 4vh;
+}
+
+#zodiac {
+  position: absolute;  
+  border-radius: 50%;
+}
+#arrow {
+  position: absolute;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  border-radius: 50%;
+}
+
