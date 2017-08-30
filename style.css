@@ -21,6 +21,7 @@ body {
   max-height: 70vh;
   max-width: 70vh;
   position: relative;
+  overflow: hidden;
 }
 
 .result-container {
